@@ -80,6 +80,42 @@ python3 motion_imitation/run.py --mode train --randomized_robot --phase_only --i
 ![GMBC_SM](https://user-images.githubusercontent.com/35774039/218204927-4be08cab-094f-47f7-b87a-46f169c4e3a0.png)
 
 
- 
- 
+# Conclusion
+In this project, Farkad Adnan presented the design and simulation, in a 3D environment, of a simple four-legged robot modeled on CAD and Matlab. The quad has passive knees and a spine made by passive joints, which are provided by rotational springs. Each leg has one active DOF which is driven by a commercial servo motor, SG90. Adjusting the spring stiffness in the legs and spine allows the behavior of the system to be modified. With proper calibration, it is possible to obtain a reduction in the energy required for robot movement, which leads to an increase in system performance. In conclusion, we found that with the right combination of stiffness springs in the knees and spine, it is possible to obtain better performance. However, the effect of spine stiffness in relation to leg stiffness is higher if the ultimate goal is to increase robot performance in terms of reducing energy consumption and allowing optimal redistribution of energy in the entire robotic system.
+
+
+
+ # References
+- Alexander, R. (1990). Three uses for springs in legged locomotion. Int. J. Robot. Res. 9, 53–61. doi: 10.1177/027836499000900205
+- Alexander, R. M. (1984). Elastic energy stores in running vertebrates. Am. Zool. 24, 85–94. doi: 10.1093/icb/24.1.85
+- Blickhan, R. (1989). The spring-mass model for running and hopping. J. Biomech. 22, 1217–1227. doi: 10.1016/0021-9290(89)90224-8
+
+
+- Boston Dynamics (2017). Introducing Handle. Available online at: https://www.youtube.com/watch?v=-7xvqQeoA8cs (accessed January 21, 2020).
+
+
+- Buchli, J., Iida, F., and Ijspeert, A. J. (2006). “Finding resonance: adaptive frequency oscillators for dynamic legged locomotion,” in 2006 IEEE/RSJ International Conference on Intelligent Robots and Systems (Beijing: IEEE), 3903–3909. doi: 10.1109/IROS.2006.281802
+
+
+- Chatzakos, P., and Papadopoulos, E. (2007). “Parametric analysis and design guidelines for a quadruped bounding robot,” in 2007 Mediterranean Conference on Control & Automation (Athens: IEEE), 1–6. doi: 10.1109/MED.2007.4433668
+
+
+- Culha, U., and Saranli, U. (2011). “Quadrupedal bounding with an actuated spinal joint,” in 2011 IEEE International Conference on Robotics and Automation (Shanghai: IEEE), 1392–1397. doi: 10.1109/ICRA.2011.5980176
+
+
+- Deng, Q., Wang, S., Xu, W., Mo, J., and Liang, Q. (2012). Quasi passive bounding of a quadruped model with articulated spine. Mech. Mach. Theory 52, 232–242. doi: 10.1016/j.mechmachtheory.2012.02.003
+
+
+-  Eckert, P., Spröwitz, A., Witte, H., and Ijspeert, A. J. (2015). “Comparing the effect of different spine and leg designs for a small bounding quadruped robot,” in 2015 IEEE International Conference on Robotics and Automation (ICRA) (Seattle, WA: IEEE), 3128–3133. doi: 10.1109/ICRA.2015.7139629
+
+
+- Gehring, C., Coros, S., Hutter, M., Bloesch, M., Hoepflinger, M. A., and Siegwart, R. (2013). “Control of dynamic gaits for a quadrupedal robot,” in 2013 IEEE International Conference on Robotics and Automation (Karlsruhe: IEEE), 3287–3292. doi: 10.1109/ICRA.2013.6631035
+
+
+- Khoramshahi, M., Spröwitz, A., Tuleu, A., Ahmadabadi, M. N., and Ijspeert, A. J. (2013). “Benefits of an active spine supported bounding locomotion with a small compliant quadruped robot,” in 2013 IEEE International Conference on Robotics and Automation (Karlsruhe: IEEE), 3329–3334. doi: 10.1109/ICRA.2013.6631041
+
+
+- Muscolo, G. G., Caldwell, D., and Cannella, F. (2017). “Biomechanics of human locomotion with constraints to design flexible-wheeled biped robots,” in 2017 IEEE International Conference on Advanced Intelligent Mechatronics (AIM) (Munich: IEEE), 1273–1278. doi: 10.1109/AIM.2017.8014193
+
+
  
