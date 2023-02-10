@@ -36,4 +36,11 @@ Chapter 2 code_Project_14 The Third Part 3 of "The Arduino World Book" code_Proj
 * https://social.thangs.com/m/709268
 
 ![3](https://user-images.githubusercontent.com/35774039/218171803-f8d3672a-c593-47e7-9225-c4a74621c4c8.PNG)
+ 
+ # The mathematical part
+ 
+ ![FO08O1TKAL2UES0](https://user-images.githubusercontent.com/35774039/218172325-e3ca2a0e-e28d-4f34-8786-eeb33cf4ffd0.png)
+![FNJ2ZL5L42QVBO8](https://user-images.githubusercontent.com/35774039/218172344-13637a3e-8e74-4580-b093-349afb1fe3a9.png)
+![IKBezier](https://user-images.githubusercontent.com/35774039/218172356-0f980730-31c0-4ed8-8a7b-ad562c086671.png)
 
+ 
