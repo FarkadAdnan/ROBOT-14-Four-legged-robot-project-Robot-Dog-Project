@@ -44,3 +44,28 @@ Chapter 2 code_Project_14 The Third Part 3 of "The Arduino World Book" code_Proj
 ![IKBezier](https://user-images.githubusercontent.com/35774039/218172356-0f980730-31c0-4ed8-8a7b-ad562c086671.png)
 
  
+ # Results
+ ![spot_yaw](https://user-images.githubusercontent.com/35774039/218203628-22312a1f-05d3-4baf-ba42-851e7b039ee1.gif)
+![spot_bezier](https://user-images.githubusercontent.com/35774039/218203643-d49791cb-7bf1-4050-a783-437efe7fb02b.gif)
+
+ # Training Models in Simulation
+To train a policy using randomized robotic morphologies, run the following command:
+```
+
+python3 motion_imitation/run.py --mode train --randomized_robot --phase_only --int_save_freq 10000000 --timesteps_per_actorbatch 8192 --optim_batchsize 512 --visualize
+```
+- --int_save_freq specifies the frequency for saving intermediate policies every n policy steps.
+
+- --visualize enables visualization, and rendering can be disabled by removing the flag.
+
+- the trained model and logs will be written to output/.
+![inversed](https://user-images.githubusercontent.com/35774039/218204482-0c15cd94-8aaf-4bf9-acea-dd40189aeefc.gif)
+
+ # Here’s a system diagram and algorithm for the D2 -GMBC process:
+![GMBC_ALGO](https://user-images.githubusercontent.com/35774039/218204924-691664bf-f2a6-41ec-9bb0-7f40b9dda5e5.png)
+![GMBC_SM](https://user-images.githubusercontent.com/35774039/218204927-4be08cab-094f-47f7-b87a-46f169c4e3a0.png)
+
+
+ 
+ 
+ 
