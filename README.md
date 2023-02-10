@@ -55,6 +55,15 @@ Chapter 2 code_Project_14 The Third Part 3 of "The Arduino World Book" code_Proj
  ![spot_yaw](https://user-images.githubusercontent.com/35774039/218203628-22312a1f-05d3-4baf-ba42-851e7b039ee1.gif)
 ![spot_bezier](https://user-images.githubusercontent.com/35774039/218203643-d49791cb-7bf1-4050-a783-437efe7fb02b.gif)
 
+
+![FTEXZKYKAL2REG5](https://user-images.githubusercontent.com/35774039/218208555-682e7616-87df-4b50-9848-48072febfd4c.png)
+
+
+
+
+
+
+
  # Training Models in Simulation
 To train a policy using randomized robotic morphologies, run the following command:
 ```
