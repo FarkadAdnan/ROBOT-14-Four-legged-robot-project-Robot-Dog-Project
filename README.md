@@ -29,11 +29,18 @@ Chapter 2 code_Project_14 The Third Part 3 of "The Arduino World Book" code_Proj
 
 - Building and designing a four-legged robot capable of moving through the control panel and performing different movements in different environments, as shown in the following figure:
 
+
+
 ![FYV2NDKKAL2UERYب](https://user-images.githubusercontent.com/35774039/218168231-b4fc9042-b464-4aac-9398-2c84f6bd58f0.PNG)
+
+
 
 # Robot Dog Designed
 
 * https://social.thangs.com/m/709268
+
+
+
 
 ![3](https://user-images.githubusercontent.com/35774039/218171803-f8d3672a-c593-47e7-9225-c4a74621c4c8.PNG)
  
@@ -59,9 +66,16 @@ python3 motion_imitation/run.py --mode train --randomized_robot --phase_only --i
 - --visualize enables visualization, and rendering can be disabled by removing the flag.
 
 - the trained model and logs will be written to output/.
+
+
+
 ![inversed](https://user-images.githubusercontent.com/35774039/218204482-0c15cd94-8aaf-4bf9-acea-dd40189aeefc.gif)
 
+
+
  # Here’s a system diagram and algorithm for the D2 -GMBC process:
+ 
+ 
 ![GMBC_ALGO](https://user-images.githubusercontent.com/35774039/218204924-691664bf-f2a6-41ec-9bb0-7f40b9dda5e5.png)
 ![GMBC_SM](https://user-images.githubusercontent.com/35774039/218204927-4be08cab-094f-47f7-b87a-46f169c4e3a0.png)
 
