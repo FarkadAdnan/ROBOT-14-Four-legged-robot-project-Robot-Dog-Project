@@ -92,6 +92,11 @@ python3 motion_imitation/run.py --mode train --randomized_robot --phase_only --i
 # Conclusion
 In this project, Farkad Adnan presented the design and simulation, in a 3D environment, of a simple four-legged robot modeled on CAD and Matlab. The quad has passive knees and a spine made by passive joints, which are provided by rotational springs. Each leg has one active DOF which is driven by a commercial servo motor, SG90. Adjusting the spring stiffness in the legs and spine allows the behavior of the system to be modified. With proper calibration, it is possible to obtain a reduction in the energy required for robot movement, which leads to an increase in system performance. In conclusion, we found that with the right combination of stiffness springs in the knees and spine, it is possible to obtain better performance. However, the effect of spine stiffness in relation to leg stiffness is higher if the ultimate goal is to increase robot performance in terms of reducing energy consumption and allowing optimal redistribution of energy in the entire robotic system.
 
+# End
+
+- شكرًا لك على قراءة تعليماتي ، آمل أن تكون قد استمتعت بها. إذا تم تشجيعك على بناء واحدة لنفسك ، فهذا رائع! سأبذل قصارى جهدي للإجابة على أي أسئلة قد تكون لديكم. لقد استمتعت تمامًا بهذا المشروع ، على الرغم من أن القيام به من البداية إلى النهاية في حوالي 3.5 أسابيع (أثناء العمل بدوام كامل) كان محمومًا للغاية! هناك الكثير من الأشياء التي تعلمتها أثناء القيام بذلك وأود تطبيقها على على الاصدار القادم  ، لذلك ربما سترى تعليمات لذلك تأتي في بعض الوقت 
+- Thank you for reading my instructable, I hope you enjoyed it. If you are encouraged to build one for yourself, great! I will do my best to answer any questions you may have. I thoroughly enjoyed this project, although doing it from start to finish in about 3.5 weeks (while working full time) was pretty hectic! There are a lot of things I learned while doing this that I'd like to apply to in the next release, so maybe you'll see instructions for that come in some time.
+- 
 
 
  # References
